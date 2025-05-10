@@ -8,7 +8,7 @@ st.set_page_config(page_title="Personalized AI Assistant", page_icon="🤖", lay
 st.markdown("<h1 style='text-align: center;'>💬 Personalized AI Assistant</h1>", unsafe_allow_html=True)
 
 # --- API Key ---
- api_key = st.secrets["CHATGROQ_API_KEY"]
+api_key=st.secrets["CHATGROQ_API_KEY"]
 # --- Session State ---
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
