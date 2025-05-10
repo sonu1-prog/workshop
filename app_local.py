@@ -8,8 +8,7 @@ st.set_page_config(page_title="Personalized AI Assistant", page_icon="🤖", lay
 st.markdown("<h1 style='text-align: center;'>💬 Personalized AI Assistant</h1>", unsafe_allow_html=True)
 
 # --- API Key ---
-api_key = "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"  # move this to st.secrets or env in production
-
+ 
 # --- Session State ---
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
